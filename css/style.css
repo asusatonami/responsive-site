@@ -10,6 +10,14 @@ body {
   font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   line-height: 1.6;
   letter-spacing: 0.1em;
+  background-size: cover;
+}
+.profile{
+  background-image: url(../images/image1.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 #skills{
@@ -52,6 +60,10 @@ body {
     justify-content: space-between; }
   #skills .skill-box {
     margin: 10px 10px; } 
+.profile{
+  height: 250px;
+}
+
 }
 footer {
   background-color: #C35B9D;
